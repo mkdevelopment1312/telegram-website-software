@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main background -->
+  <rect width="200" height="200" rx="40" fill="url(#mainGradient)"/>
+  
+  <!-- Circuit board pattern -->
+  <g opacity="0.15">
+    <path d="M20 50h160M20 100h160M20 150h160" stroke="#ffffff" stroke-width="2"/>
+    <path d="M50 20v160M100 20v160M150 20v160" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="50" cy="50" r="4" fill="#ffffff"/>
+    <circle cx="100" cy="100" r="4" fill="#ffffff"/>
+    <circle cx="150" cy="150" r="4" fill="#ffffff"/>
+    <circle cx="50" cy="150" r="4" fill="#ffffff"/>
+    <circle cx="150" cy="50" r="4" fill="#ffffff"/>
+  </g>
+  
+  <!-- Central telegram-style arrow -->
+  <g transform="translate(100, 100)">
+    <path d="M-30 0l20-12v8h20v8h-20v8l-20-12z" fill="#ffffff"/>
+  </g>
+  
+  <!-- Software brackets -->
+  <path d="M30 70l-10 10 10 10M170 70l10 10-10 10" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <text x="100" y="170" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">XAXA SOFTWARE</text>
+  
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0088cc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0066aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004477;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

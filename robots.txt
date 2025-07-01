@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap for XAXA-SOFTWARE
+Sitemap: https://xaxasoftware.dev/sitemap.xml
